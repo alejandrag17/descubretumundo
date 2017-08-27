@@ -57,4 +57,11 @@ $(document).ready(function () {
 
 	setStudentschool("Debe definir la institucion");
 
+	$(".subject").click(function(){
+		$('#favorite-subjects').append($(this));
+
+	});
+
 });
+
+
